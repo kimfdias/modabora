@@ -1,0 +1,175 @@
+:root {
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", tahoma, arial, sans-serif;
+}
+
+#principal {
+    width: 64em;
+    margin: 1.25em auto;
+}
+
+header {
+    background: #162028;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'quicksand';
+        src: url(webfontkit-20240416-112412/quicksand-regular-webfont.woff) format("woff"),
+        url(webfontkit-20240416-112412/quicksand-regular-webfont.woff2) format("woff2");
+}
+
+header .logotipo{
+    font-family: Viaoda Libre, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-left: 5em;
+    font-weight: normal;
+    
+}
+
+header .header-nav li{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 1em;
+    
+}
+
+header .header-nav a{
+   font-family: "Viaoda Libre";
+   color:#425564;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   transition: color .3s linear;
+
+}
+
+.header-nav a:hover {
+    color: white;
+}
+
+.portfolio h1{
+    font-family: "Viaoda Libre";
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #555;
+}
+
+.portfolio p{
+    font-family: "Viaoda Libre";
+    color: #555;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 4em;
+}
+
+.content___imagens{
+    display: flex;
+    justify-content: space-between;    
+
+}
+
+.imagem___um-titulo{
+    font-family: "Viaoda Libre";
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.imagem___dois-titulo{
+    font-family: "Viaoda Libre";
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.imagem___tres-titulo{
+    font-family: "Viaoda Libre";
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.imagem___um-texto{
+    font-family: "roboto";
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: .9em;   
+}
+
+.imagem___dois-texto{
+    font-family: "roboto";
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: .9em; 
+}
+
+.imagem___tres-texto{
+    font-family: "roboto";
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: .9em;
+   
+}
+
+.artigo___resumo h2{
+    font-family: "Viaoda Libre";
+    text-transform: uppercase;
+    color: white;
+    text-align: justify;
+    font-size: 3em;
+
+    font-weight: normal;
+}
+
+.artigo___resumo p{
+
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Viaoda Libre";
+    text-align: left;
+    width: 70%;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.artigo___resumo{
+    margin-top: 3em;
+    background-image: url(imagens/bg_detalhe.png);
+    padding: 1.8em;
+    padding: var(--large-default-padding);
+    
+}
+
+.rodape{
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
