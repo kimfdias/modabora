@@ -1,2 +1,4 @@
-# modabora
-Pagina de revista hipotetica criada com HTML e CSS 
+# Modabora
+
+
+## Página de revista hipotética criada com HTML e CSS para prática das linguagens elencadas.
